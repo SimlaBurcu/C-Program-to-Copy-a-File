@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/stat.h>
-#define BUF_SIZE 8192 //I did research about optimal buffer size and i found that default buffer is optimal which is 8192
+#define BUF_SIZE 8192 //default buffer is optimal which is 8192
 #define PERMS 0644 //permissions for creating a file
 
 static void mymkdir(const char *dir);
